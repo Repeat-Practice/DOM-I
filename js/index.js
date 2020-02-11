@@ -100,13 +100,16 @@ contHead = document.querySelector(".contact h4");
 contText = document.querySelectorAll(".contact p");
 
 contHead.textContent = siteContent.contact["contact-h4"];
-contHead.style.color = 'green';
+
 
 contText[0].textContent = siteContent.contact.address;
 contText[1].textContent = siteContent.contact.phone;
 contText[2].textContent = siteContent.contact.email;
 
 
-
+//Stretch
+midheadings.forEach((item)=> item.style.color = 'green');
+title.style.color = 'green';
+contHead.style.color = 'green';
 
 
